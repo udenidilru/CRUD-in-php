@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="style.css">
-<div class="h1">products</div>
+<div class="h1">Orchids</div>
 
 <div class="ul">
 	<div class="li"><a href="insert.php">Insert data</a></div>
