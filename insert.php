@@ -6,6 +6,10 @@
 </head>
 <body>
 
+    <?php
+	include_once('show.php');
+	?>
+
 	<div class="log">
 		<div class="form">
 			<form action="insert.php" method="post">
