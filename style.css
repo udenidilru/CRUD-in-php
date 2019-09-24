@@ -1,0 +1,81 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url("./Image/back2.jpg");
+    font-family: Verdana, sans-serif; margin:0}
+
+.mySlides {display: none}
+
+img {
+    vertical-align: middle;
+    }
+
+
+
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #040205;
+
+}
+
+.li {
+    float: left;
+
+}
+
+.li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+.li a:hover, .dropdown:hover .dropbtn {
+    background-color: #1160ff;
+}
+
+.li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #040205;
+    min-width: fit-content;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+
+}
+
+.dropdown-content a:hover {
+    background-color: #1160ff;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.h1{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("./Image/back4.jpg");
+    font-size: 80px;
+    font-family: "Bradley Hand ITC";
+    font-weight: bolder;
+    font-style: initial;
+    text-align: center;
+    color: #f9f9f9;
+    height: 100px;
+}
+
+
